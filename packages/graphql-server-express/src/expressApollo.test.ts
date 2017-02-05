@@ -3,7 +3,7 @@ import * as bodyParser from 'body-parser';
 import { graphqlExpress, graphiqlExpress } from './expressApollo';
 import testSuite, { schema as Schema, CreateAppOptions } from 'graphql-server-integration-testsuite';
 import { expect } from 'chai';
-import { GraphQLOptions } from 'graphql-server-core';
+import { GraphQLOptions } from 'graphql-server-core-propagate-errors';
 import 'mocha';
 
 function createApp(options: CreateAppOptions = {}) {

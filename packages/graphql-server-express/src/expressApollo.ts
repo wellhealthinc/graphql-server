@@ -1,6 +1,6 @@
 import * as express from 'express';
 import * as url from 'url';
-import { GraphQLOptions, HttpQueryError, runHttpQuery } from 'graphql-server-core';
+import { GraphQLOptions, HttpQueryError, runHttpQuery } from 'graphql-server-core-propagate-errors';
 import * as GraphiQL from 'graphql-server-module-graphiql';
 
 export interface ExpressGraphQLOptionsFunction {
