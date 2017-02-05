@@ -1,5 +1,5 @@
 {
-  "name": "graphql-server-core",
+  "name": "graphql-server-core-propagate-errors",
   "version": "0.5.1",
   "description": "Core engine for Apollo GraphQL server",
   "main": "dist/index.js",
