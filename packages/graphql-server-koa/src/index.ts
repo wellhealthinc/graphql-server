@@ -1,1 +1,1 @@
-export { KoaGraphQLOptionsFunction, KoaHandler, graphqlKoa, graphiqlKoa } from './koaApollo';
+export * from 'apollo-server-koa';

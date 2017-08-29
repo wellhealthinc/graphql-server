@@ -1,1 +1,1 @@
-export { GraphiQLData, renderGraphiQL } from './renderGraphiQL';
+export * from 'apollo-server-module-graphiql';
