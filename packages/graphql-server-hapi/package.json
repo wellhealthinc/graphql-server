@@ -36,9 +36,7 @@
   "optionalDependencies": {
     "@types/hapi": "^16.0.0",
     "@types/graphql": "^0.8.5"
-=======
     "apollo-server-hapi": "^1.1.2"
->>>>>>> upstream/master
   },
   "typings": "dist/index.d.ts",
   "typescript": {

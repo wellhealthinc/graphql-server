@@ -1,12 +1,7 @@
 import * as express from 'express';
 import * as url from 'url';
-<<<<<<< HEAD:packages/graphql-server-express/src/expressApollo.ts
-import { GraphQLOptions, HttpQueryError, runHttpQuery } from 'graphql-server-core-propagate-errors';
-import * as GraphiQL from 'graphql-server-module-graphiql';
-=======
 import { GraphQLOptions, HttpQueryError, runHttpQuery } from 'apollo-server-core';
 import * as GraphiQL from 'apollo-server-module-graphiql';
->>>>>>> upstream/master:packages/apollo-server-express/src/expressApollo.ts
 
 export interface ExpressGraphQLOptionsFunction {
   (req?: express.Request, res?: express.Response): GraphQLOptions | Promise<GraphQLOptions>;
